@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>slider</title>
+</head>
+<body>
+	<img src="img/3.jpg" alt="" id="big">
+	<div>
+		<button onclick="change('img/3.jpg')">Click</button>
+		<button onclick="change('img/5.jpg')">Click</button>
+		<button onclick="change('img/Site.png')">Click</button>
+	</div>
+	<script type="text/javascript">	
+		function change (img){
+			document.querySelector("img#big").src =img
+		}	
+	</script>
+</body>
+</html>
